@@ -1,0 +1,3604 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.org/utmb/ndkg"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.org/utmb/ndkg">
+    <Prefix name="" IRI="http://purl.org/utmb/ndkg#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#NDKG_0000001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000009"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000018"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000024"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000026"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000028"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000032"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000033"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000034"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000035"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000036"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000037"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000038"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000039"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000040"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000041"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000042"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000043"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000044"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000045"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000046"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000048"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000049"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000050"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000051"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000052"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000053"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000055"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000056"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000058"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000059"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000060"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000061"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000062"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000063"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000065"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000067"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000068"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000069"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000070"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000071"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000072"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000073"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000074"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000076"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000077"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000078"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000079"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000080"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000081"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000082"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000083"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000084"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000085"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000086"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000087"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000088"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000089"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000090"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000091"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000092"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000093"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000094"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000095"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000096"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000097"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000098"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000099"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000104"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000106"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000108"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000109"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000110"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000111"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000113"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000116"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000118"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000119"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000120"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000121"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000122"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000123"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000124"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000125"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000126"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000127"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000128"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000129"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000130"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000131"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000132"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000133"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000134"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000135"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000136"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000137"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000138"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000139"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000140"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000142"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000143"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000144"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000145"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000147"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000148"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000149"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000150"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000151"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000152"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000153"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000154"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000155"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000156"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000157"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000158"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000159"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000160"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000161"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000162"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000163"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000164"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000165"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000166"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000167"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000168"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000169"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000170"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000171"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000172"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000173"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000175"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000176"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000177"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000178"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000179"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000180"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000181"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000183"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000184"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000185"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000186"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000187"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000188"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000190"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000191"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000192"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000193"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000194"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000195"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000196"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000197"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000198"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000199"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000200"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000204"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000205"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000206"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000207"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000208"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000210"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000211"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000212"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000213"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000214"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000215"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000217"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000218"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000219"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000221"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000222"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000223"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000224"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000225"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000226"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000227"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000228"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000229"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000230"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000231"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000232"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000233"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000234"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000235"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000236"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000237"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000238"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000239"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000240"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000241"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000242"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000243"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000244"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000245"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000247"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000248"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000249"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000251"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000252"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000253"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000254"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000255"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000256"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000257"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000258"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000259"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000260"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000261"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000262"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000264"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000265"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000266"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000267"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000268"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000269"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000270"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000271"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000272"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000273"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000274"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000275"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000276"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000277"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000278"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000279"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000280"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000281"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000282"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000283"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000284"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000285"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000286"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000287"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000288"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000289"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000290"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000291"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000292"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000293"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000294"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000295"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000296"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000297"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000298"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000299"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000300"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000301"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000302"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000303"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000304"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000305"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000306"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000307"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000308"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000309"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000310"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000311"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000312"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000313"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000314"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000315"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000316"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000317"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000318"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000319"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000320"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000321"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000322"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000323"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000325"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000326"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000327"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000328"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000329"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000330"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000331"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000333"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000334"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000335"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000336"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000337"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000338"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000339"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000341"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000342"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000343"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000344"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000345"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000346"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000347"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000348"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000349"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000350"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000351"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000352"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000354"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000355"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000356"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000358"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000359"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000360"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000361"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000362"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000363"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000364"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000366"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000367"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000368"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000369"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000370"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000371"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000372"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000373"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000374"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000375"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000376"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000377"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000378"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000379"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000380"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000381"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000383"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000384"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000385"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000386"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000387"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000388"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000389"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000390"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000391"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000392"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000393"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000394"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000395"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000396"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000397"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000398"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000400"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000401"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000402"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000403"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000404"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000405"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000406"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000407"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000408"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000409"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000410"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000411"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000412"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000413"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000414"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000415"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000416"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000417"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000418"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000420"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000421"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000422"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000423"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000424"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000425"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000426"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000427"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000428"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000429"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000431"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000432"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000433"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000434"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000435"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000436"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000437"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000438"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000441"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000442"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000443"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000444"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000445"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000446"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000447"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000448"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000449"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000450"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000451"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000452"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000453"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000454"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000455"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000456"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000457"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000458"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000459"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000460"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000461"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000462"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000463"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000464"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000465"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000466"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000467"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000468"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000469"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000470"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000471"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000472"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000473"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000474"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000475"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000476"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000477"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_TermNumber"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000001</IRI>
+        <Literal xml:lang="en">Isolation &amp; Confinement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000002</IRI>
+        <Literal xml:lang="en">Psychological Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000003</IRI>
+        <Literal xml:lang="en">Cognitive Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000004</IRI>
+        <Literal xml:lang="en">Distance from Earth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000005</IRI>
+        <Literal xml:lang="en">Radiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000006</IRI>
+        <Literal xml:lang="en">Individual Readiness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000007</IRI>
+        <Literal xml:lang="en">Crew Capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000008</IRI>
+        <Literal xml:lang="en">Task Performance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000009</IRI>
+        <Literal xml:lang="en">Team (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000010</IRI>
+        <Literal xml:lang="en">World/Family Events</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000011</IRI>
+        <Literal xml:lang="en">Social Dynamics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000012</IRI>
+        <Literal xml:lang="en">Crew Composition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000013</IRI>
+        <Literal xml:lang="en">Individual Factors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000014</IRI>
+        <Literal xml:lang="en">Workload</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000015</IRI>
+        <Literal xml:lang="en">Vehicle Design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000016</IRI>
+        <Literal xml:lang="en">Crew Health &amp; Performance System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000017</IRI>
+        <Literal xml:lang="en">Training</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000018</IRI>
+        <Literal xml:lang="en">Exercise Hardware</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000019</IRI>
+        <Literal xml:lang="en">BHP Prevention Capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000020</IRI>
+        <Literal xml:lang="en">BHP Monitoring Capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000021</IRI>
+        <Literal xml:lang="en">BHP Intervention Capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000024</IRI>
+        <Literal xml:lang="en">Communication Factors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000025</IRI>
+        <Literal xml:lang="en">Ground Support</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000026</IRI>
+        <Literal xml:lang="en">Central Nervous System Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000028</IRI>
+        <Literal xml:lang="en">Bone Fracture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000029</IRI>
+        <Literal xml:lang="en">Skeletal Fragility </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000030</IRI>
+        <Literal xml:lang="en">Musculoskeletal Loads</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000031</IRI>
+        <Literal xml:lang="en">Altered Gravity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000032</IRI>
+        <Literal xml:lang="en">Resistive Exercise</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000033</IRI>
+        <Literal xml:lang="en">Muscle (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000034</IRI>
+        <Literal xml:lang="en">Suit Design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000035</IRI>
+        <Literal xml:lang="en">Dynamic Load (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000036</IRI>
+        <Literal xml:lang="en">Sensorimotor (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000037</IRI>
+        <Literal xml:lang="en">Aerobic (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000038</IRI>
+        <Literal xml:lang="en">Organ Perfusion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000039</IRI>
+        <Literal xml:lang="en">Aerobic Fitness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000040</IRI>
+        <Literal xml:lang="en">Presyncope/Syncope</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000041</IRI>
+        <Literal xml:lang="en">Medical Illness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000042</IRI>
+        <Literal xml:lang="en">Vascular Structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000043</IRI>
+        <Literal xml:lang="en">Orthostatic Intolerance countermeasures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000044</IRI>
+        <Literal xml:lang="en">Oxidative Stress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000045</IRI>
+        <Literal xml:lang="en">Inflammation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000046</IRI>
+        <Literal xml:lang="en">Intravascular Volume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000048</IRI>
+        <Literal xml:lang="en">Ultrasound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000049</IRI>
+        <Literal xml:lang="en">Fall Height</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000050</IRI>
+        <Literal xml:lang="en">Traumatic Injury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000051</IRI>
+        <Literal xml:lang="en">DXA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000052</IRI>
+        <Literal xml:lang="en">QCT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000053</IRI>
+        <Literal xml:lang="en">MRI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000054</IRI>
+        <Literal xml:lang="en">Chondrocyte Metabolism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000055</IRI>
+        <Literal xml:lang="en">Detect Atmospheric Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000056</IRI>
+        <Literal xml:lang="en">Detect Bone Structural Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000058</IRI>
+        <Literal xml:lang="en">Cardiovascular (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000059</IRI>
+        <Literal xml:lang="en">Fluid Shifts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000060</IRI>
+        <Literal xml:lang="en">Endocrine Factors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000061</IRI>
+        <Literal xml:lang="en">Medical Prevention Capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000062</IRI>
+        <Literal xml:lang="en">Medical Monitoring Capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000063</IRI>
+        <Literal xml:lang="en">Medical Treatment Capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000064</IRI>
+        <Literal xml:lang="en">HSIA[Human Systems Integration Architecture] (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000065</IRI>
+        <Literal xml:lang="en">Post Landing Task Performance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000067</IRI>
+        <Literal xml:lang="en">Procedure Design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000068</IRI>
+        <Literal xml:lang="en">DCS(Diagnosing Decompression Sickness) I</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000069</IRI>
+        <Literal xml:lang="en">DCS(Diagnosing Decompression Sickness) II</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000070</IRI>
+        <Literal xml:lang="en">Environmental Injury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000071</IRI>
+        <Literal xml:lang="en">Loss of EVA(s)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000072</IRI>
+        <Literal xml:lang="en">Arterial Gas Embolism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000073</IRI>
+        <Literal xml:lang="en">Denitrogenation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000074</IRI>
+        <Literal xml:lang="en">EVA Operations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000075</IRI>
+        <Literal xml:lang="en">EVA Frequency</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000076</IRI>
+        <Literal xml:lang="en">EVA Duration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000077</IRI>
+        <Literal xml:lang="en">EVA (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000078</IRI>
+        <Literal xml:lang="en">EVA Task Timeline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000079</IRI>
+        <Literal xml:lang="en">Atmospheric Conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000080</IRI>
+        <Literal xml:lang="en">Ebullism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000081</IRI>
+        <Literal xml:lang="en">Depressurization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000082</IRI>
+        <Literal xml:lang="en">Atmospheric Dust Level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000083</IRI>
+        <Literal xml:lang="en">Eye Injury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000084</IRI>
+        <Literal xml:lang="en">Lung Injury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000085</IRI>
+        <Literal xml:lang="en">Skin Irriration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000086</IRI>
+        <Literal xml:lang="en">Ingestion Toxicity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000087</IRI>
+        <Literal xml:lang="en">Insomnia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000088</IRI>
+        <Literal xml:lang="en">Venous Thrombosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000089</IRI>
+        <Literal xml:lang="en">Vascular Congestion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000090</IRI>
+        <Literal xml:lang="en">Ureterolithiasis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000091</IRI>
+        <Literal xml:lang="en">Thiazides</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000092</IRI>
+        <Literal xml:lang="en">Sudden Sensorineural Loss</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000093</IRI>
+        <Literal xml:lang="en">Starvation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000094</IRI>
+        <Literal xml:lang="en">Stress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000095</IRI>
+        <Literal xml:lang="en">Sleep (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000096</IRI>
+        <Literal xml:lang="en">Sleep (Inertia)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000097</IRI>
+        <Literal xml:lang="en">Sleep Deficiencies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000098</IRI>
+        <Literal xml:lang="en">Sensory Augmentation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000099</IRI>
+        <Literal xml:lang="en">Sepsis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000100</IRI>
+        <Literal xml:lang="en">Shielding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000101</IRI>
+        <Literal xml:lang="en">Rhabdomyolysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000103</IRI>
+        <Literal xml:lang="en">Renal Stone (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000104</IRI>
+        <Literal xml:lang="en">Refractive Error Shift</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000105</IRI>
+        <Literal xml:lang="en">Nutrients</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000106</IRI>
+        <Literal xml:lang="en">Neutrons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000108</IRI>
+        <Literal xml:lang="en">Microbiome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000109</IRI>
+        <Literal xml:lang="en">Lenses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000110</IRI>
+        <Literal xml:lang="en">Ototoxins</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000111</IRI>
+        <Literal xml:lang="en">Dysrhythmia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000112</IRI>
+        <Literal xml:lang="en">Electrical Shock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000113</IRI>
+        <Literal xml:lang="en">Plasma Induced Shock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000114</IRI>
+        <Literal xml:lang="en">Energy (Calorie)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000115</IRI>
+        <Literal xml:lang="en">Hydration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000116</IRI>
+        <Literal xml:lang="en">Hygiene </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000117</IRI>
+        <Literal xml:lang="en">Hypoxia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000118</IRI>
+        <Literal xml:lang="en">Intracochlear Pressure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000119</IRI>
+        <Literal xml:lang="en">Intracranial Pressure Monitoring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000120</IRI>
+        <Literal xml:lang="en">Metabolism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000121</IRI>
+        <Literal xml:lang="en">Oral Contraceptives</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000122</IRI>
+        <Literal xml:lang="en">Osteoarthritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000123</IRI>
+        <Literal xml:lang="en">Pharmacodynamics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000124</IRI>
+        <Literal xml:lang="en">Pharmacogenomics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000125</IRI>
+        <Literal xml:lang="en">Pharmacokinetics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000126</IRI>
+        <Literal xml:lang="en">Barotrauma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000127</IRI>
+        <Literal xml:lang="en">Anomalous Events</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000128</IRI>
+        <Literal xml:lang="en">Anthropometry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000129</IRI>
+        <Literal xml:lang="en">Anticholinergic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000130</IRI>
+        <Literal xml:lang="en">Anticoagulants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000131</IRI>
+        <Literal xml:lang="en">Food Acceptability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000132</IRI>
+        <Literal xml:lang="en">Food Contamination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000133</IRI>
+        <Literal xml:lang="en">Food Preparation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000134</IRI>
+        <Literal xml:lang="en">Food Production</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000135</IRI>
+        <Literal xml:lang="en">Food Safety</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000136</IRI>
+        <Literal xml:lang="en">Food System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000137</IRI>
+        <Literal xml:lang="en">Food Variety</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000138</IRI>
+        <Literal xml:lang="en">HSI Processes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000139</IRI>
+        <Literal xml:lang="en">Humidity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000140</IRI>
+        <Literal xml:lang="en">Maintainability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000142</IRI>
+        <Literal xml:lang="en">Microhost (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000143</IRI>
+        <Literal xml:lang="en">Monitoring Capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000144</IRI>
+        <Literal xml:lang="en">Probiotics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000145</IRI>
+        <Literal xml:lang="en">SANS (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000147</IRI>
+        <Literal xml:lang="en">Startle Reaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000148</IRI>
+        <Literal xml:lang="en">Suit Habitability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000149</IRI>
+        <Literal xml:lang="en">Sunlight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000150</IRI>
+        <Literal xml:lang="en">Tamsulosin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000151</IRI>
+        <Literal xml:lang="en">Team Cognition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000152</IRI>
+        <Literal xml:lang="en">Team Cohesion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000153</IRI>
+        <Literal xml:lang="en">Water Intake</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000154</IRI>
+        <Literal xml:lang="en">Vomit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000155</IRI>
+        <Literal xml:lang="en">Combustion/Smoldering Events</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000156</IRI>
+        <Literal xml:lang="en">Connective Tissue Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000157</IRI>
+        <Literal xml:lang="en">Musculoskeletal Injuries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000158</IRI>
+        <Literal xml:lang="en">Neuro/Ocular Injury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000159</IRI>
+        <Literal xml:lang="en">Behavioral (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000160</IRI>
+        <Literal xml:lang="en">Bone Fracture (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000161</IRI>
+        <Literal xml:lang="en">CO2 (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000162</IRI>
+        <Literal xml:lang="en">Crew Egress (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000163</IRI>
+        <Literal xml:lang="en">DCS (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000164</IRI>
+        <Literal xml:lang="en">Dust (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000165</IRI>
+        <Literal xml:lang="en">Electrical Shock (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000166</IRI>
+        <Literal xml:lang="en">Food and Nutrition (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000167</IRI>
+        <Literal xml:lang="en">Fundoscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000168</IRI>
+        <Literal xml:lang="en">Gamma Rays</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000169</IRI>
+        <Literal xml:lang="en">Globe Flattening</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000170</IRI>
+        <Literal xml:lang="en">Hematologic Index Alterations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000171</IRI>
+        <Literal xml:lang="en">Landing Profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000172</IRI>
+        <Literal xml:lang="en">Laser</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000173</IRI>
+        <Literal xml:lang="en">Mineralized Renal Material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000175</IRI>
+        <Literal xml:lang="en">Motivation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000176</IRI>
+        <Literal xml:lang="en">Muscle Performance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000177</IRI>
+        <Literal xml:lang="en">Net Habitable Volume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000178</IRI>
+        <Literal xml:lang="en">Noise Exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000179</IRI>
+        <Literal xml:lang="en">Nutrient Toxicity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000180</IRI>
+        <Literal xml:lang="en">On Board Expertise</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000181</IRI>
+        <Literal xml:lang="en">Optic disc edema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000183</IRI>
+        <Literal xml:lang="en">Persistent Subclinical Immune Dysregulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000184</IRI>
+        <Literal xml:lang="en">Pre-Mission Food Storage Time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000185</IRI>
+        <Literal xml:lang="en">Self Administered Rehab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000186</IRI>
+        <Literal xml:lang="en">Suit Failure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000187</IRI>
+        <Literal xml:lang="en">Supplements</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000188</IRI>
+        <Literal xml:lang="en">Sympathomimetics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000190</IRI>
+        <Literal xml:lang="en">Temperature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000191</IRI>
+        <Literal xml:lang="en">Thermal Degradation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000192</IRI>
+        <Literal xml:lang="en">Thermal Environment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000193</IRI>
+        <Literal xml:lang="en">Thigh Cuffs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000194</IRI>
+        <Literal xml:lang="en">Time Critical Procedure Execution</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000195</IRI>
+        <Literal xml:lang="en">Tool Design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000196</IRI>
+        <Literal xml:lang="en">Toxic Exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000197</IRI>
+        <Literal xml:lang="en">Toxic Substance Monitoring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000198</IRI>
+        <Literal xml:lang="en">Ultrasound Manipulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000199</IRI>
+        <Literal xml:lang="en">Urine Chemistry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000200</IRI>
+        <Literal xml:lang="en">Vehicle Systems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000201</IRI>
+        <Literal xml:lang="en">Vestibular Gain Change</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000202</IRI>
+        <Literal xml:lang="en">Vestibular Motor Neuron Change</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000203</IRI>
+        <Literal xml:lang="en">Vibration Isolation System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000204</IRI>
+        <Literal xml:lang="en">Vision and Gaze Control</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000205</IRI>
+        <Literal xml:lang="en">Visual Acuity Test</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000206</IRI>
+        <Literal xml:lang="en">Visual Field Defect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000207</IRI>
+        <Literal xml:lang="en">Visual Fields Test</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000208</IRI>
+        <Literal xml:lang="en">VTE (Concern)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000209</IRI>
+        <Literal xml:lang="en">Waste Management System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000210</IRI>
+        <Literal xml:lang="en">Water Contamination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000211</IRI>
+        <Literal xml:lang="en">Absorption</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000212</IRI>
+        <Literal xml:lang="en">Acoustics (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000213</IRI>
+        <Literal xml:lang="en">Air Contamination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000214</IRI>
+        <Literal xml:lang="en">Airlock Design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000215</IRI>
+        <Literal xml:lang="en">Ambient CO2 level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000217</IRI>
+        <Literal xml:lang="en">Antimicrobial Resistance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000218</IRI>
+        <Literal xml:lang="en">Arc Flash/Sparking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000219</IRI>
+        <Literal xml:lang="en">Aspiration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000221</IRI>
+        <Literal xml:lang="en">Astronaut Selection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000222</IRI>
+        <Literal xml:lang="en">Atmospheric Scrubbers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000223</IRI>
+        <Literal xml:lang="en">Autonomous Systems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000224</IRI>
+        <Literal xml:lang="en">Balance Training</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000225</IRI>
+        <Literal xml:lang="en">BHP Countermeasures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000226</IRI>
+        <Literal xml:lang="en">BHP Family Services</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000227</IRI>
+        <Literal xml:lang="en">Biological Response</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000228</IRI>
+        <Literal xml:lang="en">Biomedical Exposures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000229</IRI>
+        <Literal xml:lang="en">Bisphosphonates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000230</IRI>
+        <Literal xml:lang="en">Blood Stagnation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000231</IRI>
+        <Literal xml:lang="en">Blood Viscosity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000232</IRI>
+        <Literal xml:lang="en">Body Posture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000233</IRI>
+        <Literal xml:lang="en">Bone Density</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000234</IRI>
+        <Literal xml:lang="en">Bone Formation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000235</IRI>
+        <Literal xml:lang="en">Bone Remodeling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000236</IRI>
+        <Literal xml:lang="en">Bone Resorption</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000237</IRI>
+        <Literal xml:lang="en">Bone Structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000238</IRI>
+        <Literal xml:lang="en">Brain Structural Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000239</IRI>
+        <Literal xml:lang="en">Breathing Mask</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000240</IRI>
+        <Literal xml:lang="en">Burn Treatment Capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000241</IRI>
+        <Literal xml:lang="en">Burns</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000242</IRI>
+        <Literal xml:lang="en">Cabin Visibility</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000243</IRI>
+        <Literal xml:lang="en">Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000244</IRI>
+        <Literal xml:lang="en">Cancer Model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000245</IRI>
+        <Literal xml:lang="en">Cancer Treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000247</IRI>
+        <Literal xml:lang="en">Cardiac Structure/Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000248</IRI>
+        <Literal xml:lang="en">Cartilage Defect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000249</IRI>
+        <Literal xml:lang="en">Catheterization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000251</IRI>
+        <Literal xml:lang="en">Charged Particles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000252</IRI>
+        <Literal xml:lang="en">Charged Surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000253</IRI>
+        <Literal xml:lang="en">Chorioretinal Folds</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000254</IRI>
+        <Literal xml:lang="en">Circadian Misalignment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000255</IRI>
+        <Literal xml:lang="en">Cleaning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000256</IRI>
+        <Literal xml:lang="en">Clinical Significant Immune Dysregulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000257</IRI>
+        <Literal xml:lang="en">CO2 Physiological Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000258</IRI>
+        <Literal xml:lang="en">CO2 Production</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000259</IRI>
+        <Literal xml:lang="en">CO2 Removal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000260</IRI>
+        <Literal xml:lang="en">Coagulability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000261</IRI>
+        <Literal xml:lang="en">Cochlear Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000262</IRI>
+        <Literal xml:lang="en">Cognitive Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000264</IRI>
+        <Literal xml:lang="en">Communication Delay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000265</IRI>
+        <Literal xml:lang="en">Compartment Isolation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000266</IRI>
+        <Literal xml:lang="en">Crew Metabolism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000267</IRI>
+        <Literal xml:lang="en">Crew Size</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000268</IRI>
+        <Literal xml:lang="en">Crew Vehicle Integration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000269</IRI>
+        <Literal xml:lang="en">Data Accessibility</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000270</IRI>
+        <Literal xml:lang="en">Data Architecture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000271</IRI>
+        <Literal xml:lang="en">Detect Brain Structual Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000272</IRI>
+        <Literal xml:lang="en">Detect Atmospheric Dust</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000273</IRI>
+        <Literal xml:lang="en">Detect BHP Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000274</IRI>
+        <Literal xml:lang="en">Detect CO2 Level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000275</IRI>
+        <Literal xml:lang="en">Detect Contamination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000276</IRI>
+        <Literal xml:lang="en">Detect CV Events</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000277</IRI>
+        <Literal xml:lang="en">Detect DCS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000278</IRI>
+        <Literal xml:lang="en">Detect Diagnosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000279</IRI>
+        <Literal xml:lang="en">Detect Dysrhythmia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000280</IRI>
+        <Literal xml:lang="en">Detect Environmental Conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000281</IRI>
+        <Literal xml:lang="en">Detect EVA Readiness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000282</IRI>
+        <Literal xml:lang="en">Detect Events</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000283</IRI>
+        <Literal xml:lang="en">Detect Hearing Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000284</IRI>
+        <Literal xml:lang="en">Detect Immune Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000285</IRI>
+        <Literal xml:lang="en">Detect Intracranial Pressure Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000286</IRI>
+        <Literal xml:lang="en">Detect Long Term Health Outcomes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000287</IRI>
+        <Literal xml:lang="en">Detect MRM/Stone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000288</IRI>
+        <Literal xml:lang="en">Detect Noise Levels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000289</IRI>
+        <Literal xml:lang="en">Detect Ocular Structural Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000290</IRI>
+        <Literal xml:lang="en">Detect Physiological Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000291</IRI>
+        <Literal xml:lang="en">Detect Post Void Residual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000292</IRI>
+        <Literal xml:lang="en">Detect Pressure Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000293</IRI>
+        <Literal xml:lang="en">Detect Radiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000294</IRI>
+        <Literal xml:lang="en">Detect Team Performance &amp; Cohesion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000295</IRI>
+        <Literal xml:lang="en">Detect Thrombosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000296</IRI>
+        <Literal xml:lang="en">Detect Toxic Exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000297</IRI>
+        <Literal xml:lang="en">Detect Visual Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000298</IRI>
+        <Literal xml:lang="en">Diagnose Events</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000299</IRI>
+        <Literal xml:lang="en">Diagnose Rhabdomyolysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000300</IRI>
+        <Literal xml:lang="en">Diagnostic Capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000301</IRI>
+        <Literal xml:lang="en">Distribution</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000302</IRI>
+        <Literal xml:lang="en">Dust Monitor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000303</IRI>
+        <Literal xml:lang="en">Dust Removal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000304</IRI>
+        <Literal xml:lang="en">Dust Source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000305</IRI>
+        <Literal xml:lang="en">Dust Suspension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000306</IRI>
+        <Literal xml:lang="en">Dysrhythmia Monitor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000307</IRI>
+        <Literal xml:lang="en">Dysrhythmia Treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000308</IRI>
+        <Literal xml:lang="en">ECLS System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000309</IRI>
+        <Literal xml:lang="en">Effective Exposure Duration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000310</IRI>
+        <Literal xml:lang="en">Effective Gravity Level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000311</IRI>
+        <Literal xml:lang="en">Effective Mission Duration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000312</IRI>
+        <Literal xml:lang="en">Electrical Muscle Effects</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000313</IRI>
+        <Literal xml:lang="en">Electrical Hardware</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000314</IRI>
+        <Literal xml:lang="en">Electrical System Design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000315</IRI>
+        <Literal xml:lang="en">Elimination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000316</IRI>
+        <Literal xml:lang="en">Endothelial Damage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000317</IRI>
+        <Literal xml:lang="en">Environmental Conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000318</IRI>
+        <Literal xml:lang="en">Environmental Control</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000319</IRI>
+        <Literal xml:lang="en">Environmental Injury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000320</IRI>
+        <Literal xml:lang="en">Environmental Monitoring Capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000321</IRI>
+        <Literal xml:lang="en">Estimated Career Dose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000322</IRI>
+        <Literal xml:lang="en">Estimated Dose Rate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000323</IRI>
+        <Literal xml:lang="en">Estimated Mission Radiation Dose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000325</IRI>
+        <Literal xml:lang="en">Evacuation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000326</IRI>
+        <Literal xml:lang="en">Exercise Hardware</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000327</IRI>
+        <Literal xml:lang="en">Exercise Prescription</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000328</IRI>
+        <Literal xml:lang="en">External Contaminants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000329</IRI>
+        <Literal xml:lang="en">Extraterrestrial Surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000330</IRI>
+        <Literal xml:lang="en">Fatigue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000331</IRI>
+        <Literal xml:lang="en">Fine Motor Control</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000333</IRI>
+        <Literal xml:lang="en">Galactic Cosmic Radiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000334</IRI>
+        <Literal xml:lang="en">Hardware/System Failure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000335</IRI>
+        <Literal xml:lang="en">Hearing Countermeasures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000336</IRI>
+        <Literal xml:lang="en">Helmet/Protective Visors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000337</IRI>
+        <Literal xml:lang="en">Hostile Closed Environment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000338</IRI>
+        <Literal xml:lang="en">Human Error</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000339</IRI>
+        <Literal xml:lang="en">Human Electrical Contact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000341</IRI>
+        <Literal xml:lang="en">Impedance Factors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000342</IRI>
+        <Literal xml:lang="en">Incapacitation/Crew Rescue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000343</IRI>
+        <Literal xml:lang="en">Inflight Hearing Exams</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000344</IRI>
+        <Literal xml:lang="en">In Mission Shelf Life</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000345</IRI>
+        <Literal xml:lang="en">Intervention Decision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000346</IRI>
+        <Literal xml:lang="en">Intervention Measures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000347</IRI>
+        <Literal xml:lang="en">Intervention Source Control</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000348</IRI>
+        <Literal xml:lang="en">K+ Citrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000349</IRI>
+        <Literal xml:lang="en">Lab Blood Monitoring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000350</IRI>
+        <Literal xml:lang="en">Landing Site Environment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000351</IRI>
+        <Literal xml:lang="en">Long Term Health Outcomes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000352</IRI>
+        <Literal xml:lang="en">Long Term Health Clinical Decisions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000354</IRI>
+        <Literal xml:lang="en">Loss of Crew</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000355</IRI>
+        <Literal xml:lang="en">Loss of Crew Life</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000356</IRI>
+        <Literal xml:lang="en">Loss of EVA Content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000358</IRI>
+        <Literal xml:lang="en">Loss of Mission Objectives</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000359</IRI>
+        <Literal xml:lang="en">Loss of Vehicle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000360</IRI>
+        <Literal xml:lang="en">Lower Body Negative Pressure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000361</IRI>
+        <Literal xml:lang="en">Manufacturer Shelf Life</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000362</IRI>
+        <Literal xml:lang="en">Materials Offgassing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000363</IRI>
+        <Literal xml:lang="en">Measurable Hearing Shift</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000364</IRI>
+        <Literal xml:lang="en">Mechanical Obstruction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000366</IRI>
+        <Literal xml:lang="en">Medical Diagnostic Capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000367</IRI>
+        <Literal xml:lang="en">Medication Compatibility</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000368</IRI>
+        <Literal xml:lang="en">Medications</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000369</IRI>
+        <Literal xml:lang="en">Microbial Resistance Factors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000370</IRI>
+        <Literal xml:lang="en">Microbial Virulence Factors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000371</IRI>
+        <Literal xml:lang="en">Mild Hypoxia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000372</IRI>
+        <Literal xml:lang="en">Mission Architecture Complexity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000373</IRI>
+        <Literal xml:lang="en">Mission Level Outcomes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000374</IRI>
+        <Literal xml:lang="en">Mitigation Options</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000375</IRI>
+        <Literal xml:lang="en">Modifiable Individual Factors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000376</IRI>
+        <Literal xml:lang="en">Morphological G-Receptor Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000377</IRI>
+        <Literal xml:lang="en">Motion Sickness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000378</IRI>
+        <Literal xml:lang="en">Multi-Sensory Integration Alterations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000379</IRI>
+        <Literal xml:lang="en">Muscle Physiologic changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000380</IRI>
+        <Literal xml:lang="en">Non-Modifiable Individual Factors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000381</IRI>
+        <Literal xml:lang="en">Nuclear Technology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000383</IRI>
+        <Literal xml:lang="en">Operations Design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000384</IRI>
+        <Literal xml:lang="en">Optical Coherence Tomography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000385</IRI>
+        <Literal xml:lang="en">Orthostatic Intolerance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000386</IRI>
+        <Literal xml:lang="en">Other Risks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000387</IRI>
+        <Literal xml:lang="en">Payload Chemicals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000388</IRI>
+        <Literal xml:lang="en">Percutaneous Nephrostomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000389</IRI>
+        <Literal xml:lang="en">Pharmaceutical Contamination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000390</IRI>
+        <Literal xml:lang="en">Pharmaceutical Effectiveness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000391</IRI>
+        <Literal xml:lang="en">Pharmaceutical Storage Conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000392</IRI>
+        <Literal xml:lang="en">Pharmaceutical Toxicity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000393</IRI>
+        <Literal xml:lang="en">Physical Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000394</IRI>
+        <Literal xml:lang="en">Physiological Monitoring Capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000395</IRI>
+        <Literal xml:lang="en">Planned EVA Content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000396</IRI>
+        <Literal xml:lang="en">Postural Control &amp; Locomotion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000397</IRI>
+        <Literal xml:lang="en">Post Voidal Residual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000398</IRI>
+        <Literal xml:lang="en">Preflight Hearing Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000400</IRI>
+        <Literal xml:lang="en">Pressure Suits</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000401</IRI>
+        <Literal xml:lang="en">Preventive Source Control</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000402</IRI>
+        <Literal xml:lang="en">Previous Injury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000403</IRI>
+        <Literal xml:lang="en">Prior Mission Exposures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000404</IRI>
+        <Literal xml:lang="en">Privacy/Team Space</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000405</IRI>
+        <Literal xml:lang="en">Private Astronaut Missions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000406</IRI>
+        <Literal xml:lang="en">Proprioception Change</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000407</IRI>
+        <Literal xml:lang="en">Protective Equipment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000408</IRI>
+        <Literal xml:lang="en">Protective Glasses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000409</IRI>
+        <Literal xml:lang="en">Protective Windows and Filters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000410</IRI>
+        <Literal xml:lang="en">Radiation Carcinogenosis (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000411</IRI>
+        <Literal xml:lang="en">Radiation Monitors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000412</IRI>
+        <Literal xml:lang="en">Recycling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000413</IRI>
+        <Literal xml:lang="en">Resource Availability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000414</IRI>
+        <Literal xml:lang="en">Resupply</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000415</IRI>
+        <Literal xml:lang="en">Retinal Nerve Fiber Layer Atrophy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000416</IRI>
+        <Literal xml:lang="en">Schedule Shifting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000417</IRI>
+        <Literal xml:lang="en">Scheduling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000418</IRI>
+        <Literal xml:lang="en">Seals/Gaskets</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000420</IRI>
+        <Literal xml:lang="en">Sensorimotor(Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000421</IRI>
+        <Literal xml:lang="en">Side Effects</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000422</IRI>
+        <Literal xml:lang="en">Social Support</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000423</IRI>
+        <Literal xml:lang="en">Solar Cycle </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000424</IRI>
+        <Literal xml:lang="en">Solar Particle Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000425</IRI>
+        <Literal xml:lang="en">Spatial Orientation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000426</IRI>
+        <Literal xml:lang="en">Staged Denitrogenation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000427</IRI>
+        <Literal xml:lang="en">Standards/Requirements</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000428</IRI>
+        <Literal xml:lang="en">Stress Relieving VR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000429</IRI>
+        <Literal xml:lang="en">Strobe Goggles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000431</IRI>
+        <Literal xml:lang="en">Suit Damage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000432</IRI>
+        <Literal xml:lang="en">Suit Vehicle/Habitat Contact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000433</IRI>
+        <Literal xml:lang="en">Surface Contamination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000434</IRI>
+        <Literal xml:lang="en">Surface Dust Level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000435</IRI>
+        <Literal xml:lang="en">Surveillance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000436</IRI>
+        <Literal xml:lang="en">System Complexity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000437</IRI>
+        <Literal xml:lang="en">System Knowledge Resources</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000438</IRI>
+        <Literal xml:lang="en">System Telemetry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000441</IRI>
+        <Literal xml:lang="en">Team Composition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000442</IRI>
+        <Literal xml:lang="en">Team Functionality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000443</IRI>
+        <Literal xml:lang="en">Team Monitoring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000444</IRI>
+        <Literal xml:lang="en">Team Skills</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000445</IRI>
+        <Literal xml:lang="en">Team Training</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000446</IRI>
+        <Literal xml:lang="en">Technical Training</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000447</IRI>
+        <Literal xml:lang="en">Tox (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000448</IRI>
+        <Literal xml:lang="en">Trapped Radiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000449</IRI>
+        <Literal xml:lang="en">Treatment Decision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000450</IRI>
+        <Literal xml:lang="en">Urinary Muscle Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000451</IRI>
+        <Literal xml:lang="en">Urinary Retention</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000452</IRI>
+        <Literal xml:lang="en">Urinary Retention (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000453</IRI>
+        <Literal xml:lang="en">Urine Concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000454</IRI>
+        <Literal xml:lang="en">Urine Flow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000455</IRI>
+        <Literal xml:lang="en">Vehicle Dynamics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000456</IRI>
+        <Literal xml:lang="en">Vehicle Failure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000457</IRI>
+        <Literal xml:lang="en">Void Trial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000458</IRI>
+        <Literal xml:lang="en">Exercise</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000459</IRI>
+        <Literal xml:lang="en">Pharm (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000460</IRI>
+        <Literal xml:lang="en">Detect Bone Density Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000461</IRI>
+        <Literal xml:lang="en">Immune (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000462</IRI>
+        <Literal xml:lang="en">Atmospheric Mixing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000463</IRI>
+        <Literal xml:lang="en">Hypoxia (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000464</IRI>
+        <Literal xml:lang="en">Medical (Risk)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000465</IRI>
+        <Literal xml:lang="en">Rhabdomyolysis Treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000466</IRI>
+        <Literal xml:lang="en">EVA Decision Support</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000467</IRI>
+        <Literal xml:lang="en">Food Storage Conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000468</IRI>
+        <Literal xml:lang="en">Nutrient Deficiencies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000469</IRI>
+        <Literal xml:lang="en">Environmental Risk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000470</IRI>
+        <Literal xml:lang="en">Infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000471</IRI>
+        <Literal xml:lang="en">Aerobic Exercise</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000472</IRI>
+        <Literal xml:lang="en">Skin Injury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000473</IRI>
+        <Literal xml:lang="en">Intracranial Pressure Changes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000474</IRI>
+        <Literal xml:lang="en">Artificial Gravity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000475</IRI>
+        <Literal xml:lang="en">Family Effects</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000476</IRI>
+        <Literal xml:lang="en">Interpersonal Relationships</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000477</IRI>
+        <Literal xml:lang="en">Nephrolithiasis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_TermNumber</IRI>
+        <Literal xml:lang="en">Term</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
