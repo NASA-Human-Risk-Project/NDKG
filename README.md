@@ -1,4 +1,4 @@
-# NASA-Human-Risk-Project
+# NASA Directed Acyclic Graphs Knowledge Graph
 # Objective
 Astronauts lack a CDSS to autonomously diagnose, monitor, and treat health risks in space. This research addresses this gap by developing an ontology-based knowledge graph for a prototype CDSS.
 # Creators
