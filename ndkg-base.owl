@@ -14,6 +14,15 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl</Import>
     <Import>http://purl.obolibrary.org/obo/cob/releases/2025-06-30/cob.owl</Import>
+    <Import>https://raw.githubusercontent.com/NASA-Human-Risk-Project/NDKG/refs/heads/main/import/mierot_bcio.owl</Import>
+    <Import>https://raw.githubusercontent.com/NASA-Human-Risk-Project/NDKG/refs/heads/main/import/mierot_envo.owl</Import>
+    <Import>https://raw.githubusercontent.com/NASA-Human-Risk-Project/NDKG/refs/heads/main/import/mierot_gsso.owl</Import>
+    <Import>https://raw.githubusercontent.com/NASA-Human-Risk-Project/NDKG/refs/heads/main/import/mierot_maxo.owl</Import>
+    <Import>https://raw.githubusercontent.com/NASA-Human-Risk-Project/NDKG/refs/heads/main/import/mierot_mondo.owl</Import>
+    <Import>https://raw.githubusercontent.com/NASA-Human-Risk-Project/NDKG/refs/heads/main/import/mierot_occo.owl</Import>
+    <Import>https://raw.githubusercontent.com/NASA-Human-Risk-Project/NDKG/refs/heads/main/import/mierot_ogms.owl</Import>
+    <Import>https://raw.githubusercontent.com/NASA-Human-Risk-Project/NDKG/refs/heads/main/import/mierot_pdro.owl</Import>
+    <Import>https://raw.githubusercontent.com/NASA-Human-Risk-Project/NDKG/refs/heads/main/import/mierot_ro.owl</Import>
     <Declaration>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000477"/>
     </Declaration>
@@ -463,6 +472,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#NDKG_0000056"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDKG_0000057"/>
     </Declaration>
     <Declaration>
         <Class IRI="#NDKG_0000058"/>
@@ -1534,7 +1546,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000480"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_0021178"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000480"/>
@@ -1566,7 +1578,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000481"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_02500000"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000481"/>
@@ -1648,7 +1660,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000484"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000484"/>
@@ -1748,7 +1760,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000488"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000488"/>
@@ -1816,7 +1828,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000491"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_0021178"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000491"/>
@@ -1963,7 +1975,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000498"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000498"/>
@@ -1992,7 +2004,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000500"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000482"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000500"/>
@@ -2109,7 +2121,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000503"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000033"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000503"/>
@@ -2141,7 +2153,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000504"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_0000001"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000504"/>
@@ -2159,7 +2171,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000505"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GSSO_000079"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000505"/>
@@ -2177,7 +2189,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000506"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000506"/>
@@ -2188,7 +2200,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000507"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000507"/>
@@ -2199,7 +2211,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000508"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000003"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000508"/>
@@ -2210,7 +2222,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000509"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_0000001"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000509"/>
@@ -2242,7 +2254,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000510"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000510"/>
@@ -2253,7 +2265,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000511"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000511"/>
@@ -2296,7 +2308,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000513"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_30222"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000514"/>
@@ -2329,7 +2341,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000516"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000003"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000516"/>
@@ -2347,7 +2359,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000517"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_02500000"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000517"/>
@@ -2358,7 +2370,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000518"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01000203"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000518"/>
@@ -2430,7 +2442,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000522"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0000110"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000522"/>
@@ -2441,7 +2453,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000523"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_0000001"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000523"/>
@@ -2538,7 +2550,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000528"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002451"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000528"/>
@@ -2724,7 +2736,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000536"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000536"/>
@@ -2774,7 +2786,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000538"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_0021178"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000538"/>
@@ -2785,7 +2797,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000539"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002451"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000539"/>
@@ -2835,7 +2847,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000541"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_02500000"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000541"/>
@@ -3238,7 +3250,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000549"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000003"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000549"/>
@@ -3281,7 +3293,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000551"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000002"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000551"/>
@@ -3313,7 +3325,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000552"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000552"/>
@@ -3328,7 +3340,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000554"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000003"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000554"/>
@@ -3357,7 +3369,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000556"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_36342"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000556"/>
@@ -3389,7 +3401,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000557"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000557"/>
@@ -3481,7 +3493,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000559"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000559"/>
@@ -3809,7 +3821,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000564"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000564"/>
@@ -3916,7 +3928,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000568"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_0000001"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000568"/>
@@ -3981,7 +3993,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000573"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000573"/>
@@ -4140,7 +4152,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000576"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_0021178"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000576"/>
@@ -4351,7 +4363,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000585"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000003"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000585"/>
@@ -4362,7 +4374,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000586"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_0021178"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000586"/>
@@ -4380,7 +4392,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000587"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000002"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000587"/>
@@ -4426,7 +4438,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000588"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0000110"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000588"/>
@@ -4543,7 +4555,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000591"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000020"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000591"/>
@@ -4607,7 +4619,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000593"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000593"/>
@@ -4660,7 +4672,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000594"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000594"/>
@@ -4718,7 +4730,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000001"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0007610"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000001"/>
@@ -4799,7 +4811,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000004"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01000203"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000004"/>
@@ -4986,7 +4998,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000008"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C60778"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000008"/>
@@ -6708,7 +6720,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000046"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000046"/>
@@ -6802,6 +6814,10 @@
             <ObjectProperty IRI="http://semanticscience.org/resource/SIO_001156"/>
             <Class IRI="#NDKG_0000352"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NDKG_0000057"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000058"/>
@@ -7730,7 +7746,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000070"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_0021178"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000070"/>
@@ -7818,7 +7834,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000071"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PDRO_0010040"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000071"/>
@@ -7847,7 +7863,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000074"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="#NDKG_0000057"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000074"/>
@@ -7972,7 +7988,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000079"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01000203"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000079"/>
@@ -8067,7 +8083,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000081"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_02500000"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000081"/>
@@ -8308,7 +8324,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000096"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GSSO_001805"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000096"/>
@@ -8380,7 +8396,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000109"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000109"/>
@@ -8402,7 +8418,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000112"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001000"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000112"/>
@@ -8441,7 +8457,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000113"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001000"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000113"/>
@@ -8519,7 +8535,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000116"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000033"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000116"/>
@@ -8595,7 +8611,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000136"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RO_0002577"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000136"/>
@@ -8831,7 +8847,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000155"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MOP_0000543"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000155"/>
@@ -8853,7 +8869,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000157"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_0021178"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000157"/>
@@ -8892,7 +8908,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000158"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_0021178"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000158"/>
@@ -9308,7 +9324,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000176"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C60778"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000176"/>
@@ -9362,7 +9378,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000180"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OCCO_00000003"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000180"/>
@@ -9401,7 +9417,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000183"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000061"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000183"/>
@@ -9437,7 +9453,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000185"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000185"/>
@@ -9537,7 +9553,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000193"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000193"/>
@@ -9655,7 +9671,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000198"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000001"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000198"/>
@@ -9666,7 +9682,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000200"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RO_0002577"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000200"/>
@@ -9748,7 +9764,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000203"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RO_0002577"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000203"/>
@@ -9770,7 +9786,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000207"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000003"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000207"/>
@@ -9781,7 +9797,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000208"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0007610"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000208"/>
@@ -9792,7 +9808,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000209"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RO_0002577"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000209"/>
@@ -9803,7 +9819,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000210"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_02500000"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000210"/>
@@ -9932,7 +9948,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000218"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MOP_0000543"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000218"/>
@@ -9950,7 +9966,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000221"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="#NDKG_0000057"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000221"/>
@@ -9975,7 +9991,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000222"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000222"/>
@@ -9993,7 +10009,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000223"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RO_0002577"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000223"/>
@@ -10018,7 +10034,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000224"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000002"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000224"/>
@@ -10133,7 +10149,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000239"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000239"/>
@@ -10187,7 +10203,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000245"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000001"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000245"/>
@@ -10390,7 +10406,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000258"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_02500000"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000258"/>
@@ -10401,7 +10417,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000259"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_02500000"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000259"/>
@@ -10463,7 +10479,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000266"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000266"/>
@@ -10506,7 +10522,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000268"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="#NDKG_0000057"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000268"/>
@@ -11060,7 +11076,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000299"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000003"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000299"/>
@@ -11093,7 +11109,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000302"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000302"/>
@@ -11115,7 +11131,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000305"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_02500000"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000305"/>
@@ -11137,7 +11153,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000307"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000001"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000307"/>
@@ -11162,7 +11178,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000308"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RO_0002577"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000308"/>
@@ -11374,7 +11390,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000313"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000313"/>
@@ -11414,7 +11430,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000316"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000060"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000316"/>
@@ -11425,7 +11441,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000317"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01000203"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000317"/>
@@ -11561,7 +11577,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000326"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000326"/>
@@ -11600,7 +11616,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000327"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000002"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000327"/>
@@ -11647,11 +11663,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000332"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="#NDKG_0000057"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000334"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C25745"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000334"/>
@@ -11662,7 +11678,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000335"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000335"/>
@@ -11673,7 +11689,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000336"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000336"/>
@@ -11989,7 +12005,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000338"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0000083"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000338"/>
@@ -12036,7 +12052,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000342"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_0021178"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000342"/>
@@ -12054,7 +12070,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000343"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000003"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000343"/>
@@ -12137,7 +12153,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000348"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000482"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000348"/>
@@ -12206,15 +12222,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000354"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PDRO_0010040"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000355"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PDRO_0010040"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000356"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PDRO_0010040"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000356"/>
@@ -12225,7 +12241,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000357"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PDRO_0000090"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000358"/>
@@ -12240,7 +12256,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000359"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PDRO_0010040"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000359"/>
@@ -12327,7 +12343,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000365"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RO_0002577"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000365"/>
@@ -12516,11 +12532,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000373"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000374"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C25404"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000374"/>
@@ -12770,7 +12786,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000389"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_02500000"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000389"/>
@@ -12781,7 +12797,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000391"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01000203"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000391"/>
@@ -12970,7 +12986,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000400"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000400"/>
@@ -13013,7 +13029,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000402"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MONDO_0021178"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000402"/>
@@ -13053,7 +13069,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000405"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="#NDKG_0000057"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000405"/>
@@ -13075,7 +13091,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000407"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000407"/>
@@ -13093,7 +13109,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000409"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000409"/>
@@ -13122,7 +13138,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000411"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000411"/>
@@ -13201,7 +13217,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000416"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C43431"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000416"/>
@@ -13340,7 +13356,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000426"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000426"/>
@@ -13397,7 +13413,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000428"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000428"/>
@@ -13408,7 +13424,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000429"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0001300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000429"/>
@@ -13430,7 +13446,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000432"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_02500000"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000432"/>
@@ -13495,7 +13511,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000436"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000436"/>
@@ -13582,7 +13598,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000444"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C43431"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000444"/>
@@ -13621,7 +13637,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000445"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="#NDKG_0000057"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000445"/>
@@ -13653,7 +13669,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000446"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="#NDKG_0000057"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000446"/>
@@ -13689,7 +13705,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000448"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_36342"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000448"/>
@@ -13740,7 +13756,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000453"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000453"/>
@@ -14134,7 +14150,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000465"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MAXO_0000001"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000465"/>
@@ -14184,7 +14200,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000467"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01000203"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000467"/>
@@ -14298,7 +14314,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000474"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCIT_C43431"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NDKG_0000474"/>
@@ -14379,6 +14395,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/CHMO_0010017</IRI>
         <Literal>mitigates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>http://purl.obolibrary.org/obo/GSSO_006233</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16420,6 +16441,11 @@ world events viewed from space, can be stressful.</Literal>
         <Literal xml:lang="en">http://purl.org/utmb/ndkg.owl#KGN_0000015</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <IRI>#NDKG_0000016</IRI>
+        <Literal>TODO: check this class and definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#definition"/>
         <IRI>#NDKG_0000016</IRI>
         <Literal xml:lang="en">The Human Health and Performance Directorate (HH&amp;P)  is the primary organization focused on enhancing crew health and performance and mitigating the risks associated with human spaceflight. With three offices, three divisions and over 900 employees, all HH&amp;P functions are ultimately aimed at achieving our mission: optimizing human health and performance throughout all phases of spaceflight.</Literal>
@@ -16703,6 +16729,11 @@ world events viewed from space, can be stressful.</Literal>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#note"/>
         <IRI>#NDKG_0000056</IRI>
         <Literal xml:lang="en">http://purl.org/utmb/ndkg.owl#KGN_0000056</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NDKG_0000057</IRI>
+        <Literal xml:lang="en">aerospace planned process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#definition"/>
@@ -21153,6 +21184,11 @@ Space: shared space that facilitates social interactions and teamwork.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://semanticscience.org/resource/SIO_000219</IRI>
         <Literal>is source of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>http://semanticscience.org/resource/SIO_001024</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
