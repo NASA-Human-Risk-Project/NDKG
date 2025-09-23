@@ -3389,7 +3389,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000557"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0000082"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/utmb/ndkg-base.owl#NDKG_0000557"/>
